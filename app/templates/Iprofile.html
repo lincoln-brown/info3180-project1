@@ -1,0 +1,29 @@
+{%extends "base.html"%}
+{%block main %}
+
+<div>
+    <div class="profile">
+        <div class="pic"><img class="profilepic" src={{url_for('static',filename=user.photo)}}/></div>
+        <div class="info"> 
+         <h6>{{user.email}} </h6>
+         <h6>{{user.location}}</h6>
+         <h6>{{user.date}}</h6>
+        </div>
+    </div>
+
+    <div>
+        <h5>About me </h5>
+        <p>{{user.biography}}</p>
+
+
+    </div>
+
+<div>
+
+
+</div>
+<button>Send Message</button>
+<button>Follow</button>
+
+</div>
+{%endblock%}

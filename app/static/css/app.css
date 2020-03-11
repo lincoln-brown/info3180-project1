@@ -1,0 +1,55 @@
+body {
+    padding-top: 5rem;
+}
+.flashes{
+	width: 500px;
+	height: 50px;
+	background-color: #CCFFFF;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.form-controlm{
+	height: 200px;
+	width: 400px;
+	border: 1px solid black;
+}
+.form-control{
+	height: 50px;
+	width: 300px;
+	border: 1px solid black;
+
+}
+.btn{
+	width: 120px;
+	height: 50px;
+	background-color:#40C5FF;
+}
+hr{
+	background-color: black;
+}
+img.profilepic{
+	width: 8em;
+	
+}
+div.profile{
+	display: flex;
+	align-items: center;
+	border: 1px solid black;
+	border-radius: 1em;
+	width: 33em;
+	height: 10em;
+	margin-top: 2em;
+
+}
+div.pic{
+	padding-left: 2em;
+
+}
+div.info{
+padding-left: 3em;
+width: 11em;
+}
+button.vpbtn{
+	margin-left: 3em;
+}

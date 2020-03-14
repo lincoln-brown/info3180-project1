@@ -7,5 +7,5 @@ CREATE TABLE user_profiles (
  Email VARCHAR(225) not null,
  Location VARCHAR(255) not null,
  biography VARCHAR(255) not null,
- date date
+ date date,
  photo VARCHAR(255) not null);

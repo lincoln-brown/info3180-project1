@@ -1,5 +1,6 @@
 {%extends "base.html"%}
 {%block main %}
+<div>
 {% if users %}
     {%for user in users %}
     <div class="profile">
@@ -9,11 +10,12 @@
         <h6>{{user.gender}}</h6>
         <h6>{{user.location}}</h6></div>
         <form method="get" action="{{url_for('Iprofile', userid=user.id)}}">
-            <button class="vpbtn">View Profile</button>
+            <button class="btn btn-success">View Profile</button>
         </form>
        
         
     </div>
     {%endfor%}
 {%endif%}
+</div>
 {%endblock%}

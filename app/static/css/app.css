@@ -1,10 +1,18 @@
 body {
     padding-top: 5rem;
 }
+.container {
+    max-width: 1140px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
 .flashes{
 	width: 500px;
 	height: 50px;
-	background-color: #CCFFFF;
+	background-color: rgb(43, 155, 246);
+	color: honeydew;
 	text-align: center;
 	border: 1px solid black;
 	border-radius: 5px;
@@ -20,11 +28,7 @@ body {
 	border: 1px solid black;
 
 }
-.btn{
-	width: 120px;
-	height: 50px;
-	background-color:#40C5FF;
-}
+
 hr{
 	background-color: black;
 }
@@ -35,15 +39,56 @@ img.profilepic{
 div.profile{
 	display: flex;
 	align-items: center;
-	border: 1px solid black;
+	border-top: 0.5em solid rgb(8, 163, 210);
+	box-shadow: 5px 10px 18px #888888;
 	border-radius: 1em;
 	width: 33em;
 	height: 10em;
 	margin-top: 2em;
 
 }
-div.pic{
+div.profile_more{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	border-top: 0.5em solid rgb(8, 163, 210);
+	box-shadow: 5px 10px 18px #888888;
+	border-radius: 1em;
+	width: 33em;
+	margin-top: 2em;
+
+
+}
+div.profilemoretop{
+	display: flex;
+	margin-top: 2em;
+	width: 100%;
+	padding-bottom: 2em;
+}
+div.profileaboutme{
+	width: 100%;
 	padding-left: 2em;
+	padding-right: 2em;
+}
+div.profilemorebtn{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+div.profilemorebtn>button{
+	margin-left: 3em;
+	margin-bottom: 2em;
+	padding-left: 2em;
+	padding-right: 2em;
+
+	
+}
+div.pic{
+	
+	padding-left: 2em;
+	padding-right: 2em;
 
 }
 div.info{

@@ -1,5 +1,6 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
+import os
 
 UPLOAD_FOLDER = './app/static/photos'
 #location where profile pictures are stored 
